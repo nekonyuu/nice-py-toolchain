@@ -23,3 +23,9 @@ pythonVersion = "3.12"
 exclude = [
     ".venv",
 ]
+
+[tool.pytest.ini_options]
+addopts = ""
+testpaths = [
+    "tests",
+]
